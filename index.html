@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration from</title>
+</head>
+<body>
+    <H2>Register form</H2>
+    <p>Enter your details below</p>
+    <form>
+        <div>
+            <ul>
+                <li><input type="text" name="text" required placeholder="your_email@gmail.com"></li><br>
+                <li><input type="password" name="password" required placeholder="password"></li><br>
+            </ul>
+        </div>
+        <p class="kit"><b>!type a complex password with 8-20character.</b>
+        </p>
+        <div>
+            <ul>
+                <li><input type="text" name="text" required placeholder="+20 phone number"></li>
+            </ul>
+        </div>
+        <hr>
+        <p><b><i>Enter your profession:</i></b></p>
+        <div>
+            <ul>
+               <li><input type="radio" name="pro">Student <input type="radio" name="pro">Teacher <input type="radio" name="pro">Developer</li>
+             </ul>
+        </div>     
+        <p>Choose the stage if you are (student)<select name="Stage" id="stage">
+            <option value="First Primry">First Primry</option>
+            <option value="First Primry">elementry</option>
+            <option value="First Primry">B.A</option>
+            <option value="First Primry">B.sc</option>
+        </select></p>
+        <hr>
+        <div>
+            <ul>
+                <li><p>Enter Your Birth day <input type="date" id="date" name="date"></p></li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <ul>
+                <li><input type="text" name="text" required placeholder="describe about you skills"></li>
+             </ul>
+        </div>
+        <hr>
+        <button type="sumbit" onclick="alert('sumbit form!')">Submit</button> <button type="reset" onclick="alert('From is reset!')">Reset</button>
+    </form>
+</body>
+</html>
